@@ -154,5 +154,5 @@ func main() {
 	router.GET("/ava/:domain", availableDomain)
 	router.GET("/whois/:domain", whoiss)
 	router.GET("/tld", tldes)
-	router.Run(":9999")
+	router.Run(":80")
 }
